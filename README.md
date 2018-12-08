@@ -1,13 +1,12 @@
 # Graylog Build Harness
 
-I manage a number of Graylog servers at work, and occasionally spin up VM's for various projects. So, I had a need to quickly push out a new Graylog system with little human intervention.
+I had a need to quickly push out a new Graylog system with little human intervention.
 
 This script helps automate a two server build-out of Graylog. The components are:
 
 1. Graylog Application Server - Has Graylog and Mongodb
 2. Graylog DB Server - Has Elasticsearch supported by Graylog
 
-Plans are to keep tracking the latest version available at [https://www.graylog.org/download](https://www.graylog.org/download).
 
 ## Build Target
 
